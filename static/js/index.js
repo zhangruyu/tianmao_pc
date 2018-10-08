@@ -230,6 +230,7 @@ $(window).scroll(function () {
             $(".fw1").css({"width":"1190px"})
             $(".fw1 img").css({"width":"1190px"})
             $(".fw2").css({"width":"1190px"})
+            $(".footer_content").css({"width":"1190px"})
         }
     })
 
