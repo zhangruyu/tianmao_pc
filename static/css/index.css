@@ -937,10 +937,9 @@
 }
 .fw2 li{
 	width: 186px;
-
 	padding-left: 52px;
 	/*background-color: yellow;*/
-	float: left;
+	/*float: left;*/
 }
 .fw2 li span{
 	color: #646464;
@@ -963,6 +962,9 @@
 .fw2 ul{
 	width: 100%;
 	height: 213px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 	/*background-color: pink;*/
 }
 .ewm{
@@ -988,10 +990,12 @@
 	margin: 0 auto;
 }
 .ft_item{
-	width: 1190px;
+	width: 100%;
 	height: 25px;
-	
 	padding: 5px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	/*background-color: red;*/
 }
 .ft_item a{
@@ -1001,7 +1005,7 @@
 }
 .ftbottm{
 	height: 110px;
-	width: 1190px;
+	width: 100%;
 	/*background-color: blue;*/
 }
 .ftbottm span{

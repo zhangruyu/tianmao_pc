@@ -190,6 +190,12 @@ $(window).scroll(function () {
             $(".likecon a").css({"width":"185px","height":"280px","margin-bottom":"11px"})
             $(".likeitem").css("width","185px")
             $(".likeitem .likeimg").css("margin","0")
+
+            $(".fw1").css({"width":"990px"})
+            $(".fw1 img").css({"width":"990px"})
+            $(".fw2").css({"width":"990px"})
+            $(".footer_content").css({"width":"990px"})
+
         }
         else{
             $(".content").css("width","1230px")
@@ -220,6 +226,10 @@ $(window).scroll(function () {
             $(".likecon a").css({"width":"236px","height":"326px","margin-bottom":"11px"})
             $(".likeitem").css("width","236px")
             $(".likeitem .likeimg").css("margin","30px 25px 5px 25px")
+
+            $(".fw1").css({"width":"1190px"})
+            $(".fw1 img").css({"width":"1190px"})
+            $(".fw2").css({"width":"1190px"})
         }
     })
 
