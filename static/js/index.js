@@ -158,9 +158,8 @@ $(window).scroll(function () {
       })
   }
 
-    $(window).resize(function () {
+    window.resize=function () {
         let Width=window.innerWidth
-        console.log(Width);
         if(Width<1300){
             $(".content").css("width","982px")
             $(".content .fs2left").css("display","none")
@@ -232,5 +231,6 @@ $(window).scroll(function () {
             $(".fw2").css({"width":"1190px"})
             $(".footer_content").css({"width":"1190px"})
         }
-    })
+    }
+    window.resize()
 
