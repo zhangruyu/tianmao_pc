@@ -158,7 +158,7 @@ $(window).scroll(function () {
       })
   }
 
-    window.resize=function () {
+    window.onresize=function () {
         let Width=window.innerWidth
         if(Width<1300){
             $(".content").css("width","982px")
@@ -190,11 +190,18 @@ $(window).scroll(function () {
             $(".likeitem").css("width","185px")
             $(".likeitem .likeimg").css("margin","0")
 
-            $(".fw1").css({"width":"990px"})
-            $(".fw1 img").css({"width":"990px"})
-            $(".fw2").css({"width":"990px"})
-            $(".footer_content").css({"width":"990px"})
-
+            if(Width<1210){
+                $(".fw1").css({"width":"990px"})
+                $(".fw1 img").css({"width":"990px"})
+                $(".fw2").css({"width":"990px"})
+                $(".footer_content").css({"width":"990px"})
+            }
+            else {
+                $(".fw1").css({"width":"1190px"})
+                $(".fw1 img").css({"width":"1190px"})
+                $(".fw2").css({"width":"1190px"})
+                $(".footer_content").css({"width":"1190px"})
+            }
         }
         else{
             $(".content").css("width","1230px")
@@ -232,5 +239,5 @@ $(window).scroll(function () {
             $(".footer_content").css({"width":"1190px"})
         }
     }
-    window.resize()
+    window.onresize()
 
