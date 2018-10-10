@@ -737,11 +737,26 @@
     color: #FF0036;
     line-height: 18px;
 }
-
-#rs{
+.rsbox{
 	width: 100%;
 	height: 90px;
-	margin-top: 10px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.rsbox1{
+	background-image: url("../images/rs1.jpg");
+	background-size: auto 90px;
+	background-position: center;
+}
+.rsbox2{
+	background-image: url("../images/TB1ZTC8cCzqK1RjSZFHSuv3CpXa.jpg");
+	background-size: auto 90px;
+	background-position: center;
+}
+.rsbox3{
+	background-image: url("../images/TB1lYlnmL5TBuNjSspcSuvnGFXa.jpg");
+	background-size: auto 90px;
+	background-position: center;
 }
 .rstitle{
 	height: 25px;
